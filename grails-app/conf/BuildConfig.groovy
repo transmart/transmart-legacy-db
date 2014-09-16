@@ -34,5 +34,14 @@ grails.project.dependency.resolution = {
                 ":rest-client-builder:1.0.3") {
             export = false
         }
+        // support for static code analysis
+        compile ":codenarc:0.21"
+    }
+}
+
+codenarc.reports = {
+    TransmartAppReport('html') {
+        outputFile = 'target/CodeNarc-transmart-legacy-db-Report.html'
+        title = 'transmart-legacy-db Report'
     }
 }
