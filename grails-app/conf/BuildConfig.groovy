@@ -41,7 +41,7 @@ grails.project.dependency.resolution = {
 
 codenarc.reports = {
     TransmartAppReport('html') {
-        outputFile = 'target/CodeNarc-transmart-legacy-db-Report.html'
+        outputFile = 'CodeNarc-transmart-legacy-db-Report.html'
         title = 'transmart-legacy-db Report'
     }
 }
