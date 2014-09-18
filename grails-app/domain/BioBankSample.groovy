@@ -1,8 +1,10 @@
 
 import groovy.transform.EqualsAndHashCode
 import groovy.transform.ToString
+import groovy.transform.ToString
 
 @EqualsAndHashCode
+@ToString(includeNames=true)
 class BioBankSample {
     String id
     String client_sample_tube_id

@@ -20,8 +20,10 @@
 
 import groovy.transform.EqualsAndHashCode
 import groovy.transform.ToString
+import groovy.transform.ToString
 
 @EqualsAndHashCode
+@ToString(includeNames=true)
 class NewsUpdate {
 
     Integer id
