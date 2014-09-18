@@ -20,6 +20,9 @@
 
 package com.recomdata.transmart.plugin
 
+import groovy.transform.EqualsAndHashCode
+
+@EqualsAndHashCode
 class Plugin {
 
     long id

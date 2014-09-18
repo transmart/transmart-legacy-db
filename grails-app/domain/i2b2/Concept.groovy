@@ -20,6 +20,9 @@
 
 package i2b2
 
+import groovy.transform.EqualsAndHashCode
+
+@EqualsAndHashCode
 class Concept {
     Long id;
 

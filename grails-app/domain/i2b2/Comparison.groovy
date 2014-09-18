@@ -20,6 +20,9 @@
 
 package i2b2
 
+import groovy.transform.EqualsAndHashCode
+
+@EqualsAndHashCode
 class Comparison {
     Long id
     Long queryResultId1;

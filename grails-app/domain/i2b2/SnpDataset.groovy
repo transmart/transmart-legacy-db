@@ -20,6 +20,9 @@
 
 package i2b2
 
+import groovy.transform.EqualsAndHashCode
+
+@EqualsAndHashCode
 class SnpDataset {
     public static String SAMPLE_TYPE_NORMAL = "NORMAL";
     public static String SAMPLE_TYPE_DISEASE = "DISEASE";

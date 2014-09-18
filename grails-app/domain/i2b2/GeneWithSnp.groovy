@@ -20,6 +20,9 @@
 
 package i2b2
 
+import groovy.transform.EqualsAndHashCode
+
+@EqualsAndHashCode
 class GeneWithSnp {
     Long entrezId;
     String name;

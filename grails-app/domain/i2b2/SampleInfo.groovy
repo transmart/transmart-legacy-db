@@ -19,6 +19,9 @@
 
 
 package i2b2
+
+import groovy.transform.EqualsAndHashCode
+
 /**
  * $Id: SampleInfo.groovy 9178 2011-08-24 13:50:06Z mmcduffie $
  * @author $Author: mmcduffie $
@@ -28,6 +31,7 @@ package i2b2
 /**
  * Request Map domain class.
  */
+@EqualsAndHashCode
 class SampleInfo {
 
     String id;

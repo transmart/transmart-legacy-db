@@ -1,6 +1,9 @@
 package com.recomdata.transmart.plugin
 import grails.converters.JSON
 
+import groovy.transform.EqualsAndHashCode
+
+@EqualsAndHashCode
 class PluginModule {
 
     def pluginService

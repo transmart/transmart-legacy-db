@@ -19,6 +19,9 @@
 
 package de
 
+import groovy.transform.EqualsAndHashCode
+
+@EqualsAndHashCode
 class DeVariantSubjectIdx {
     Long id
     DeVariantDataSet dataset

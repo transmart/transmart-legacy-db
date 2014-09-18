@@ -20,6 +20,9 @@
 
 package de
 
+import groovy.transform.EqualsAndHashCode
+
+@EqualsAndHashCode
 class DeVariantDataSet {
     String id
     String dataSource

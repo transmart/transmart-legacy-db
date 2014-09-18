@@ -20,9 +20,12 @@
 
 package i2b2
 
+import groovy.transform.EqualsAndHashCode
+
 /**
  * This class contains SNP data from multiple datasets. 
  */
+@EqualsAndHashCode
 class SnpDatasetListByProbe {
     String trialName;
     List<Long> patientNumList_1;

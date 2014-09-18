@@ -26,6 +26,9 @@
 
 package i2b2
 
+import groovy.transform.EqualsAndHashCode
+
+@EqualsAndHashCode
 class SubjectSnpDataset {
 
     public static String SAMPLE_TYPE_NORMAL = "NORMAL";

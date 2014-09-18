@@ -18,6 +18,9 @@
  ******************************************************************/
 
 
+import groovy.transform.EqualsAndHashCode
+
+@EqualsAndHashCode
 class NewsUpdate {
 
     Integer id

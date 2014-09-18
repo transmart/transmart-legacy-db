@@ -1,5 +1,8 @@
 package de
 
+import groovy.transform.EqualsAndHashCode
+
+@EqualsAndHashCode
 class DeSNPInfo {
     Long id
     String aminoAcidChange

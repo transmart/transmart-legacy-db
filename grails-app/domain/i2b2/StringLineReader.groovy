@@ -20,7 +20,9 @@
 
 package i2b2
 
+import groovy.transform.EqualsAndHashCode
 
+@EqualsAndHashCode
 class StringLineReader {
     public static String LINE_BREAK = "\n";
 
