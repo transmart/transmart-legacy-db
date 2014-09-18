@@ -20,6 +20,11 @@
 
 package i2b2
 
+import groovy.transform.EqualsAndHashCode
+import groovy.transform.ToString
+
+@EqualsAndHashCode
+@ToString(includeNames=true)
 class SnpDataByProbe {
     Long snpDataByProbeId;
     Long snpInfoId;

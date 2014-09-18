@@ -21,8 +21,10 @@
 package de
 
 import groovy.transform.EqualsAndHashCode
+import groovy.transform.ToString
 
 @EqualsAndHashCode
+@ToString(includeNames=true)
 class DeVariantSubjectDetail {
     Long id
     String chromosome

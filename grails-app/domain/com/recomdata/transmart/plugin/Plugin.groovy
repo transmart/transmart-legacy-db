@@ -21,8 +21,10 @@
 package com.recomdata.transmart.plugin
 
 import groovy.transform.EqualsAndHashCode
+import groovy.transform.ToString
 
 @EqualsAndHashCode
+@ToString(includeNames=true)
 class Plugin {
 
     long id

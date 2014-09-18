@@ -21,6 +21,7 @@
 package i2b2
 
 import groovy.transform.EqualsAndHashCode
+import groovy.transform.ToString
 
 /**
  * $Id: SampleInfo.groovy 9178 2011-08-24 13:50:06Z mmcduffie $
@@ -32,6 +33,7 @@ import groovy.transform.EqualsAndHashCode
  * Request Map domain class.
  */
 @EqualsAndHashCode
+@ToString(includeNames=true)
 class SampleInfo {
 
     String id;

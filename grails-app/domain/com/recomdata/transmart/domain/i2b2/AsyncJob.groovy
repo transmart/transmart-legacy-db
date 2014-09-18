@@ -19,13 +19,15 @@
 
 
 package com.recomdata.transmart.domain.i2b2
-
 import groovy.time.TimeCategory
 import groovy.time.TimeDuration
 
 import groovy.transform.EqualsAndHashCode
+import groovy.transform.ToString
+
 
 @EqualsAndHashCode
+@ToString(includeNames=true)
 class AsyncJob {
 
     final Set<String> TERMINATION_STATES = ['Completed', 'Cancelled', 'Error'] as Set

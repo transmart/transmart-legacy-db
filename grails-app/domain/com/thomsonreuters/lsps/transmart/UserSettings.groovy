@@ -1,8 +1,11 @@
 package com.thomsonreuters.lsps.transmart
 
 import groovy.transform.EqualsAndHashCode
+import groovy.transform.ToString
+
 
 @EqualsAndHashCode
+@ToString(includeNames=true)
 class UserSettings {
     Long userId
     String name
